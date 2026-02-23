@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-23T10:54:07.754727Z",
+  "generated_at": "2026-02-23T11:50:54.487127Z",
   "timezone": "Asia/Shanghai",
   "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
   "history_url": "https://waytoagi.feishu.cn/wiki/FjiOwWp2giA7hRk6jjfcPioCnAc",
   "window_days": 7,
   "latest_date": "2026-02-23",
-  "count_today": 4,
+  "count_today": 5,
   "updates_today": [
     {
       "date": "2026-02-23",
@@ -19,6 +19,11 @@
     },
     {
       "date": "2026-02-23",
+      "title": "开发者AlexFinn靠OpenClaw月入超万美元的实战指南来了！这篇内容揭秘其本地部署的核心优势与5分钟快速上手方案，教你打造24/7工作的专属数字员工。从建立工作关系、反向提示的核心思维，到搭建每日简报、任务控制中心的落地玩法，再到安全使用规则，全维度拆解高效用法，帮你解锁主动工作、自我改进的AI生产力。",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-02-23",
       "title": "作者这篇深度解析带你读懂Awesome OpenClaw Skills生态的核心逻辑！项目从5705个技能中严苛筛选出3002个优质项，以质量、安全为先清退近半数内容，规避金融风险、剔除恶意与重复技能。28个分类覆盖AI大模型、开发工具、Agent社交等多领域。文中还按开发者、创意工作者等不同人群给出了专属导航建议，是快速把握AI Agent生态全貌、找准开发与应用方向的关键参考。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
@@ -28,7 +33,7 @@
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     }
   ],
-  "count_7d": 40,
+  "count_7d": 41,
   "updates_7d": [
     {
       "date": "2026-02-23",
@@ -38,6 +43,11 @@
     {
       "date": "2026-02-23",
       "title": "这份OpenClaw零代码实战教程，通过Shell封装实现Codex CLI零轮询运行，可以告别等待与重复命令；再搭配Git驱动的自动化审计流程，代码推送后即可由Agent团队自动审查、修复并发送通知。追求高效、自动化开发流程的人快来上手试试！",
+      "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
+    },
+    {
+      "date": "2026-02-23",
+      "title": "开发者AlexFinn靠OpenClaw月入超万美元的实战指南来了！这篇内容揭秘其本地部署的核心优势与5分钟快速上手方案，教你打造24/7工作的专属数字员工。从建立工作关系、反向提示的核心思维，到搭建每日简报、任务控制中心的落地玩法，再到安全使用规则，全维度拆解高效用法，帮你解锁主动工作、自我改进的AI生产力。",
       "url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview"
     },
     {
