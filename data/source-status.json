@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-25T12:02:45.831894Z",
+  "generated_at": "2026-02-25T13:51:14.592115Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 495,
+      "duration_ms": 440,
       "error": null
     },
     {
@@ -14,31 +14,31 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 394,
+      "duration_ms": 291,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 540,
-      "duration_ms": 13847,
+      "item_count": 564,
+      "duration_ms": 14672,
       "error": null
     },
     {
       "site_id": "bestblogs",
       "site_name": "BestBlogs",
-      "ok": false,
-      "item_count": 0,
-      "duration_ms": 274161,
-      "error": "HTTPSConnectionPool(host='www.bestblogs.dev', port=443): Max retries exceeded with url: /en/newsletter (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.bestblogs.dev', port=443): Read timed out. (read timeout=30)\"))"
+      "ok": true,
+      "item_count": 83,
+      "duration_ms": 1914,
+      "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3045,
-      "duration_ms": 1635,
+      "item_count": 3050,
+      "duration_ms": 1366,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 76,
-      "duration_ms": 339,
+      "duration_ms": 549,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 47,
-      "duration_ms": 171,
+      "duration_ms": 170,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1322,
+      "duration_ms": 1885,
       "error": null
     },
     {
@@ -77,8 +77,8 @@
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 1405,
-      "duration_ms": 1134,
+      "item_count": 1416,
+      "duration_ms": 1574,
       "error": null
     },
     {
@@ -86,8 +86,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 453,
-      "duration_ms": 1370,
+      "item_count": 454,
+      "duration_ms": 2603,
       "error": null,
       "feed_count": 1,
       "effective_feed_count": 1,
@@ -97,15 +97,14 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 9,
+  "successful_sites": 10,
   "failed_sites": [
-    "bestblogs",
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 6735,
-  "items_before_topic_filter": 13992,
-  "items_in_24h": 1554,
+  "fetched_raw_items": 6859,
+  "items_before_topic_filter": 14241,
+  "items_in_24h": 1531,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.opml",
@@ -124,8 +123,8 @@
         "feed_url": "https://youmind.com/rss/pack/andrej-karpathy-curated-rss",
         "effective_feed_url": "https://youmind.com/rss/pack/andrej-karpathy-curated-rss",
         "ok": true,
-        "item_count": 453,
-        "duration_ms": 1370,
+        "item_count": 454,
+        "duration_ms": 2603,
         "error": null,
         "skipped": false,
         "skip_reason": null,
