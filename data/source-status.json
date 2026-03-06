@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-06T17:08:06.716262Z",
+  "generated_at": "2026-03-06T18:02:24.840301Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 474,
+      "duration_ms": 432,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 386,
+      "duration_ms": 304,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Info Flow",
       "ok": true,
       "item_count": 349,
-      "duration_ms": 10981,
+      "duration_ms": 11234,
       "error": null
     },
     {
@@ -30,23 +30,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 85,
-      "duration_ms": 5926,
+      "duration_ms": 9656,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2832,
-      "duration_ms": 1551,
+      "item_count": 3024,
+      "duration_ms": 1548,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 66,
-      "duration_ms": 479,
+      "item_count": 65,
+      "duration_ms": 337,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 173,
+      "duration_ms": 211,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 3791,
+      "duration_ms": 1132,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 141,
-      "duration_ms": 421,
+      "duration_ms": 419,
       "error": null
     },
     {
@@ -86,8 +86,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 525,
-      "duration_ms": 1524,
+      "item_count": 528,
+      "duration_ms": 1652,
       "error": null,
       "feed_count": 1,
       "effective_feed_count": 1,
@@ -102,9 +102,9 @@
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5168,
-  "items_before_topic_filter": 8868,
-  "items_in_24h": 1001,
+  "fetched_raw_items": 5362,
+  "items_before_topic_filter": 8733,
+  "items_in_24h": 995,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.opml",
@@ -123,8 +123,8 @@
         "feed_url": "https://youmind.com/rss/pack/andrej-karpathy-curated-rss",
         "effective_feed_url": "https://youmind.com/rss/pack/andrej-karpathy-curated-rss",
         "ok": true,
-        "item_count": 525,
-        "duration_ms": 1524,
+        "item_count": 528,
+        "duration_ms": 1652,
         "error": null,
         "skipped": false,
         "skip_reason": null,
