@@ -3,7 +3,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from scripts.update_news import make_item_id, normalize_url, parse_date_any, parse_opml_subscriptions, parse_relative_time_zh
+from scripts.update_news import (
+    make_item_id,
+    normalize_url,
+    parse_date_any,
+    parse_opml_subscriptions,
+    parse_relative_time_zh,
+    render_json,
+)
 
 
 class UtilsTests(unittest.TestCase):
@@ -40,6 +47,16 @@ class UtilsTests(unittest.TestCase):
         self.assertEqual(len(feeds), 2)
         self.assertEqual(feeds[0]["title"], "A")
         self.assertEqual(feeds[1]["title"], "B")
+
+    def test_render_json_compact_mode_avoids_pretty_print_whitespace(self):
+        payload = {"generated_at": "2026-03-16T00:00:00Z", "items": [{"id": "1", "title": "A"}]}
+
+        pretty = render_json(payload)
+        compact = render_json(payload, compact=True)
+
+        self.assertIn('\n  "items"', pretty)
+        self.assertNotIn('\n  "items"', compact)
+        self.assertLess(len(compact), len(pretty))
 
 
 if __name__ == "__main__":

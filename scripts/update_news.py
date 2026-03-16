@@ -1905,6 +1905,12 @@ def load_title_zh_cache(path: Path) -> dict[str, str]:
     return {}
 
 
+def render_json(payload: Any, compact: bool = False) -> str:
+    if compact:
+        return json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
 def translate_to_zh_cn(session: requests.Session, text: str) -> str | None:
     s = (text or "").strip()
     if not s:
@@ -2277,11 +2283,11 @@ def main() -> int:
             "error": str(exc),
         }
 
-    latest_path.write_text(json.dumps(latest_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    archive_path.write_text(json.dumps(archive_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    status_path.write_text(json.dumps(status_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    waytoagi_path.write_text(json.dumps(waytoagi_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    title_cache_path.write_text(json.dumps(title_cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    latest_path.write_text(render_json(latest_payload), encoding="utf-8")
+    archive_path.write_text(render_json(archive_payload, compact=True), encoding="utf-8")
+    status_path.write_text(render_json(status_payload), encoding="utf-8")
+    waytoagi_path.write_text(render_json(waytoagi_payload), encoding="utf-8")
+    title_cache_path.write_text(render_json(title_cache), encoding="utf-8")
 
     print(f"Wrote: {latest_path} ({len(latest_items)} items)")
     print(f"Wrote: {archive_path} ({len(archive)} items)")
